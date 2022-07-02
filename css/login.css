@@ -1,13 +1,21 @@
 .form{
     background-color: black;
-    width: 400px;
+    width: 450px;
     padding: 20px;
-    margin-left: 35%;
-    margin-top: 15%;
+    margin-left: 34%;
+    margin-top: 13%;
     border-radius: 20px;
     border: 3px solid #157347;
 }
 
 .centro{
     margin-left: 40%;
+}
+
+.centro-place{
+    text-align: center;
+}
+
+.centro-input{
+    margin-left: 19%;
 }
