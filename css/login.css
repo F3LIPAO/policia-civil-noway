@@ -1,11 +1,28 @@
 .form{
     background-color: black;
-    width: 450px;
+    max-width: 300px;
+    min-width: 320px;
     padding: 20px;
-    margin-left: 34%;
-    margin-top: 13%;
+    margin: auto;
     border-radius: 20px;
     border: 3px solid #157347;
+}
+
+.form-dois{
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid #157347;
+}
+
+.espaco{
+    margin-top: 10%;
 }
 
 .centro{
