@@ -1,0 +1,56 @@
+<!DOCTYPE pages>
+<pages lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Polícia Civil</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/distintivo_icone.png" type="image/x-icon">
+    <style>
+    body{
+        background-color: black;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="form">
+        <form name="login">
+            <input type="text" name="usuario" id="usuario" placeholder="Usuário" class="form-control border-success" autocomplete="off">
+            <br>
+            <input type="password" name="senha" id="senha" placeholder="Senha" class="form-control border-success">
+            <br>
+            <input type="button" value="Entrar" onclick="entrar()" class="btn btn-success centro">
+        </form>
+    </div>
+
+    <script>
+
+        function entrar(){
+            var user=document.login.usuario.value
+            var senha=document.login.senha.value
+
+            if((user=="cruise")&&(senha=="cruise123")){
+                window.location.href="pages/loading.html";
+            }
+
+            else{
+                window.location.href="pages/acesso_negado.html";
+            }
+        }
+
+    </script>
+
+
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+</body>
+
+</pages>
