@@ -8,6 +8,10 @@
     border: 3px solid #157347;
 }
 
+.font{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .espaco{
     margin-top: 10%;
 }
