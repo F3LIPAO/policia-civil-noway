@@ -54,33 +54,64 @@
     <div class="form">
         <form name="civil">
           <button type="button" class="btn-close btn-close-white" aria-label="Close" onclick="fechar()"></button>
-            <h1 class="text-success text-center"><b>G.O.T</b></h1>
+            <h1 class="text-success"><b>YAKUZA</b></h1>
+            <br><br>
+            <p class="text-success"><b>A Yakuza, também conhecida como gokudō, são os membros de grupos de uma organização criminosa transnacional originária do Japão. A polícia japonesa e a imprensa, os chamam de bōryokudan, enquanto os membros da Yakuza chamam a si mesmos de "ninkyō dantai". Infelizmente essa facção chegou a nossa cidade, e ficou bastante conhecida, por lavagem de roupas (Lavagem de dinheiro sujo)</b></p>
             <br>
-            <div class="card text-center centro" style="width: 18rem;">
-              <img src="../img/fardagotmasc.png" class="card-img-top" alt="..." height="350px">
-              <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text" id="textArea"><b>Jaqueta 223 1 ; calca 90; acessorios 116; Acessorios 154 ;  Colete 17 1 ; Mascara 169 13 ; Sapatos 25</b></p>
-                <input type="button" value="Copiar" class="btn btn-primary" onclick="copiar()">
-              </div>
-            </div>
+            <h5 class="text-success"><b>Mochila:</b></h5>
+            <br>
+            <img src="../img/Mochila YKZ.png" class="img-thumbnail" alt="...">
         </form>
     </div>
-    
+    <br>
+    <div class="form">
+        <form name="lider">
+            <h1 class="text-success">Líderes</h1>
+               
+                <div class="card-group text-center">
+                    <div class="card">
+                      <img class="card-img-top" src="../img/vitor.png" alt="Imagem de capa do card" height="400">
+                      <div class="card-body">
+                        <h5 class="card-title text-dark"><b>Vitor Lau</b></h5>
+                        <p class="card-text"></p>
+                        <a href="vitor.html" class="btn btn-success">Visualizar</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="../img/Anjos.jpg" alt="Imagem de capa do card" height="400">
+                      <div class="card-body">
+                        <h5 class="card-title text-dark"><b>Anjos Yamaguchi</b></h5>
+                        <p class="card-text"></p>
+                        <a href="anjos.html" class="btn btn-success">Visualizar</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="../img/reyko.png" alt="Imagem de capa do card" height="400">
+                      <div class="card-body">
+                        <h5 class="card-title text-dark"><b>Reyko Yamaguchi</b></h5>
+                        <p class="card-text"></p>
+                        <a href="reyko.html" class="btn btn-success">Visualizar</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="../img/sem_identificacao.png" alt="Imagem de capa do card" height="400">
+                        <div class="card-body">
+                          <h5 class="card-title text-dark"><b>Don Escobar</b></h5>
+                          <p class="card-text"></p>
+                          <a href="don_escobar.html" class="btn btn-success">Visualizar</a>
+                        </div>
+                      </div>
+                </div>
+                  
+        </form>
+    </div>
+
     <script>
 
-    function copiar(){
-      var content = document.getElementById('textArea').innerHTML;
+      function fechar(){
+        window.location.href="inicio.html";
+      }
 
-      navigator.clipboard.writeText(content)
-          .then(() => {
-          alert("Texto copiado para a área de tranferência")
-      })
-    }
-
-    function fechar(){
-      window.location.href="fardas.html";
-    }
     </script>
 
     <!-- Bootstrap -->
@@ -89,4 +120,5 @@
         crossorigin="anonymous"></script>
     <!-- Bootstrap -->
 </body>
+
 </html>

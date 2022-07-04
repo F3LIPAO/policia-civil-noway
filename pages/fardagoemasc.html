@@ -32,34 +32,20 @@
                 <a class="nav-link active text-white" aria-current="page" href="https://docs.google.com/spreadsheets/d/1pFBj6KFEIJoQPpT8veGtussK05IOnxuK31mpcIf2878/edit?usp=sharing">Código Penal</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="mandados.html">Mandados</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link active text-white" aria-current="page" href="fardas.html">Fardas</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active text-white" aria-current="page" href="comandos.html">Comandos</a>
               </li>
               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Facções
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="ykz.html">YAKUZA</a></li>
-                    <li><a class="dropdown-item" href="medellin.html">MEDELLIN</a></li>
-                  </ul>
-                </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Unidades
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">D.I.G</a></li>
-                <li><a class="dropdown-item" href="#">G.O.E</a></li>
-                <li><a class="dropdown-item" href="#">N.I.P</a></li>
-                <li><a class="dropdown-item" href="#">G.O.T</a></li>
-              </ul>
-            </li>
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Facções
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="ykz.html">YAKUZA</a></li>
+                  <li><a class="dropdown-item" href="medellin.html">MEDELLIN</a></li>
+                </ul>
+              </li>
           </ul>
         </div>
       </div>
@@ -67,6 +53,7 @@
     <br>
     <div class="form">
         <form name="civil">
+          <button type="button" class="btn-close btn-close-white" aria-label="Close" onclick="fechar()"></button>
             <h1 class="text-success text-center"><b>G.O.E</b></h1>
             <br>
             <div class="card text-center centro" style="width: 18rem;">
@@ -89,6 +76,10 @@
           .then(() => {
           alert("Texto copiado para a área de tranferência")
       })
+    }
+
+    function fechar(){
+      window.location.href="fardas.html";
     }
     </script>
 

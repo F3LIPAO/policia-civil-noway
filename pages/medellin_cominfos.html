@@ -54,33 +54,64 @@
     <div class="form">
         <form name="civil">
           <button type="button" class="btn-close btn-close-white" aria-label="Close" onclick="fechar()"></button>
-            <h1 class="text-success text-center"><b>G.O.T</b></h1>
+            <h1 class="text-success"><b>MEDELLIN</b></h1>
+            <br><br>
+            <p class="text-success"><b>A tropa da Medellin é uma organização criminosa envolvida em vendas de itens ilegais na cidade como CAPUZ, CORDAS (Laço), KEYYELLOW, KEYRED, KEYBLUE, KEYPINK, KEYCARD, C4, MASTERPICK, LOCKPICK e PLACAS. Materiais usados na cidade para cometer crimes de assalto a caixas eletrônicos, cofres, furto a veículos, sequestros entre outros, o que os torna cumplices e/ou colaboradores em tais ações criminosas.</b></p>
             <br>
-            <div class="card text-center centro" style="width: 18rem;">
-              <img src="../img/fardagotmasc.png" class="card-img-top" alt="..." height="350px">
-              <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text" id="textArea"><b>Jaqueta 223 1 ; calca 90; acessorios 116; Acessorios 154 ;  Colete 17 1 ; Mascara 169 13 ; Sapatos 25</b></p>
-                <input type="button" value="Copiar" class="btn btn-primary" onclick="copiar()">
-              </div>
-            </div>
+            <h5 class="text-success"><b>Mochila:</b></h5>
+            <br>
+            <img src="../img/mochila_medellin.png" class="img-thumbnail" alt="...">
         </form>
     </div>
-    
+    <br>
+    <div class="form">
+        <form name="lider">
+            <h1 class="text-success">Líderes</h1>
+               
+                <div class="card-group text-center">
+                    <div class="card">
+                      <img class="card-img-top" src="../img/sem_identificacao.png" alt="Imagem de capa do card" height="400">
+                      <div class="card-body">
+                        <h5 class="card-title text-dark">??</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-success">Visualizar</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="../img/sem_identificacao.png" alt="Imagem de capa do card" height="400">
+                      <div class="card-body">
+                        <h5 class="card-title text-dark">??</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-success">Visualizar</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="../img/sem_identificacao.png" alt="Imagem de capa do card" height="400">
+                      <div class="card-body">
+                        <h5 class="card-title text-dark">??</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-success">Visualizar</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="../img/sem_identificacao.png" alt="Imagem de capa do card" height="400">
+                        <div class="card-body">
+                          <h5 class="card-title text-dark">??</h5>
+                          <p class="card-text"></p>
+                          <a href="#" class="btn btn-success">Visualizar</a>
+                        </div>
+                      </div>
+                </div>
+                  
+        </form>
+    </div>
+
     <script>
 
-    function copiar(){
-      var content = document.getElementById('textArea').innerHTML;
+      function fechar(){
+        window.location.href="inicio.html";
+      }
 
-      navigator.clipboard.writeText(content)
-          .then(() => {
-          alert("Texto copiado para a área de tranferência")
-      })
-    }
-
-    function fechar(){
-      window.location.href="fardas.html";
-    }
     </script>
 
     <!-- Bootstrap -->
@@ -89,4 +120,5 @@
         crossorigin="anonymous"></script>
     <!-- Bootstrap -->
 </body>
+
 </html>
