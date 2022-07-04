@@ -9,6 +9,10 @@
     border-radius: 20px;
 }
 
+.centro{
+    margin: auto;
+}
+
 li{
     color: white;
     font-family: 'Montserrat', sans-serif;
